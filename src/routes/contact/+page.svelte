@@ -14,18 +14,6 @@
 <div class="flex flex-col items-center justify-center gap-5 p-2 sm:p-8">
 	<h1 class="w-full text-2xl font-bold text-center text-blue-950">Contact Us</h1>
 	<hr class="w-full border border-blue-950" />
-	<!-- Need the following fields:
-	1. Name 
-	2. Email 
-	3. Phone Number 
-	4. Message
-	5. Dropdown to select if they are interested in an appointment
-	6. If they select yes, a calendar selection for their desired date and time 
-	7. Send button -->
-
-	<!-- Also add:
-	- Contact info box with same info as about page (bottom of page) -->
-
 	<div class="flex flex-row w-full">
 		<div class="flex flex-col mb-2 text-lg w-96">
 			<h1 class="w-full text-xl font-bold text-center text-blue-950">General Contact Info:</h1>
@@ -50,7 +38,6 @@
 			</div>
 		</div>
 	</div>
-
 	<form class="flex flex-col w-full gap-4 p-4 border-2 sm:p-8 sm:w-2/3 border-blue-950 rounded-2xl">
 		<div class="flex flex-col gap-2">
 			<label for="name" class="text-lg font-semibold text-blue-950">Name:</label>
