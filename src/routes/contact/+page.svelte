@@ -1,15 +1,41 @@
+<script lang="ts">
+	let appointment = false;
+
+	function handleAppointmentChange(
+		event: Event & { currentTarget: EventTarget & HTMLSelectElement }
+	) {
+		appointment = event.currentTarget.value === 'Yes';
+	}
+
+	let status = "";
+	const handleSubmit = async (data: { currentTarget: HTMLFormElement | undefined; }) => {
+		status = 'Submitting...'
+		const formData = new FormData(data.currentTarget)
+		const object = Object.fromEntries(formData);
+		if (appointment) {
+			object.date = new Date(object.date.toString()).toDateString();
+		}
+		const json = JSON.stringify(object);
+
+		const response = await fetch("https://api.web3forms.com/submit", {
+			method: "POST",
+			headers: {
+				"Content-Type": "application/json",
+				Accept: "application/json",
+			},
+			body: json
+		});
+		const result = await response.json();
+		if (result.success) {
+			status = "Success"
+		}
+	}
+</script>
+
 <svelte:head>
 	<title>Contact</title>
 	<meta name="description" content="Prince CPA Firm, PLLC" />
 </svelte:head>
-
-<script lang='ts'>
-	let appointment = false;
-
-	function handleAppointmentChange(event: Event & { currentTarget: EventTarget & HTMLSelectElement; }) {
-		appointment = event.currentTarget.value === 'yes';
-	}
-</script>
 
 <div class="flex flex-col items-center justify-center gap-5 p-2 sm:p-8">
 	<h1 class="w-full text-2xl font-bold text-center text-blue-950">Contact Us</h1>
@@ -38,13 +64,25 @@
 			</div>
 		</div>
 	</div>
-	<form class="flex flex-col w-full gap-4 p-4 border-2 sm:p-8 sm:w-2/3 border-blue-950 rounded-2xl">
+	{#if status == "Submitting..."}
+		<span class="text-3xl font-bold text-blue-950">{status}</span>
+	{/if}
+	{#if status == "Success"}
+		<span class="text-3xl font-bold text-blue-950">{status}!</span>
+		<p class="text-lg font-semibold text-blue-950">Message sent successfully! We will be in touch with you shortly! If you requested an appointment, we will reach out to confirm the exact date and time!</p>
+	{/if}
+	{#if status == ""}
+		<form
+		class="flex flex-col w-full gap-4 p-4 border-2 sm:p-8 sm:w-2/3 border-blue-950 rounded-2xl"
+		on:submit|preventDefault={handleSubmit}
+	>
+		<input type="hidden" name="access_key" value="3d5e5265-5450-4784-9eb0-438132c8d916">
 		<div class="flex flex-col gap-2">
 			<label for="name" class="text-lg font-semibold text-blue-950">Name:</label>
 			<input
 				type="text"
 				id="name"
-				name="name"
+				name="Name"
 				class="p-2 border rounded-md border-blue-950"
 				placeholder="John Doe"
 			/>
@@ -54,7 +92,7 @@
 			<input
 				type="email"
 				id="email"
-				name="email"
+				name="Email"
 				class="p-2 border rounded-md border-blue-950"
 				placeholder="email@example.com"
 			/>
@@ -64,7 +102,7 @@
 			<input
 				type="tel"
 				id="phone"
-				name="phone"
+				name="Phone"
 				class="p-2 border rounded-md border-blue-950"
 				placeholder="(555) 555-5555"
 			/>
@@ -73,30 +111,32 @@
 			<label for="message" class="text-lg font-semibold text-blue-950">Message:</label>
 			<textarea
 				id="message"
-				name="message"
+				name="Message"
 				class="p-2 border rounded-md border-blue-950"
 				placeholder="Enter your message here..."
 			/>
 		</div>
 		<div class="flex flex-col gap-2">
-			<label for="appointment" class="text-lg font-semibold text-blue-950">Are you interested in scheduling an appointment?</label>
+			<label for="appointment" class="text-lg font-semibold text-blue-950"
+				>Are you interested in scheduling an appointment?</label
+			>
 			<select
 				id="appointment"
-				name="appointment"
+				name="Requested Appointment"
 				class="p-2 border rounded-md border-blue-950"
 				on:change={handleAppointmentChange}
 			>
-				<option value='yes'>Yes</option>
-				<option selected value='no'>No</option>
+				<option value="Yes">Yes</option>
+				<option selected value="No">No</option>
 			</select>
 		</div>
 		{#if appointment}
 			<div class="flex flex-col gap-2">
-				<label for="date" class="text-lg font-semibold text-blue-950">Desired Date and Time:</label>
+				<label for="date" class="text-lg font-semibold text-blue-950">Desired Appointment Date:</label>
 				<input
-					type="datetime-local"
+					type="date"
 					id="date"
-					name="date"
+					name="Desired Appointment Date"
 					class="p-2 border rounded-md border-blue-950"
 				/>
 			</div>
@@ -108,4 +148,6 @@
 			Send
 		</button>
 	</form>
+	{/if}
+
 </div>
