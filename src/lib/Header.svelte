@@ -5,7 +5,7 @@
 </script>
 
 <div class="flex flex-row items-center justify-center w-screen py-4 text-white sm:hidden bg-blue-950">
-	<a href="phone:+16018492544" class="flex flex-row items-center justify-center gap-3 text-base font-medium md:text-lg">
+	<a href="tel:+16018492544" class="flex flex-row items-center justify-center gap-3 text-base font-medium md:text-lg">
 		<Phone size={26}/>
 		<span>(601) 849-2544</span>
 	</a>
@@ -16,7 +16,7 @@
 			<img src={logo} alt="Prince CPA Firm, PLLC">
 		</a>
 		<div class="flex-row items-center justify-center hidden w-64 sm:flex">
-			<a href="phone:+16018492544" class="flex flex-row items-center justify-center gap-3 text-lg font-medium">
+			<a href="tel:+16018492544" class="flex flex-row items-center justify-center gap-3 text-lg font-medium">
 				<Phone size={26}/>
 				<span>(601) 849-2544</span>
 			</a>

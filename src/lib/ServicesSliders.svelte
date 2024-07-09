@@ -27,7 +27,7 @@
         <div class="flex flex-col flex-1 gap-3">
             <span class="text-2xl font-semibold">Please call us at (601) 849-2544.</span>
             <p>We offer payroll solutions that meet your business's needs and enable you to spend time doing what you do best, running your company.</p>
-            <a href="phone:+16018492544"><CtaLink text="Call Today" /></a>
+            <a href="tel:+16018492544"><CtaLink text="Call Today" /></a>
         </div>
     </div>
 </div>
