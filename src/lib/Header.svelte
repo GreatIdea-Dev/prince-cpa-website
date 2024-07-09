@@ -9,8 +9,8 @@
 			<h1 class="text-2xl font-semibold">Prince CPA Firm, PLLC</h1>
 		</div>
 		<div class="flex flex-row items-center justify-center w-64">
-			<a href="phone:+16018492544" class="flex flex-row items-center justify-center gap-3 text-xl font-medium">
-				<Phone stroke="white" size="36"/>
+			<a href="phone:+16018492544" class="flex flex-row items-center justify-center gap-3 text-lg font-medium">
+				<Phone stroke="white" size="28"/>
 				<span>(601) 849-2544</span>
 			</a>
 		</div>
