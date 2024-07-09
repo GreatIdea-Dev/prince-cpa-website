@@ -1,38 +1,17 @@
-# create-svelte
+# Prince CPA Firm Website
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
-
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+This website is powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+First, ensure you are on the correct version of Node by running `nvm use`.
 
-```bash
-npm run dev
+Next, run `npm install` to install dependencies.
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+The development server can be started by running `npm run dev`.
 
-## Building
+## Contributing
 
-To create a production version of your app:
+To contribute, you must have access to the Great Idea Developoment organization. If you meet those requirements, you can simply clone the repository, create a new branch, make your changes, then open a Pull Request to be approved.
 
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Before opening a Pull Request, ensure that your code passes the linting and formatting checks by running `npm run lint` and `npm run format`.

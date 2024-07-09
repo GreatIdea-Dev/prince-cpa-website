@@ -1,10 +1,8 @@
 <script>
-	import ActionsIcons from "$lib/ActionsIcons.svelte";
-import Hero from "$lib/Hero.svelte";
-	import ServicesIcons from "$lib/ServicesIcons.svelte";
-	import ServicesSliders from "$lib/ServicesSliders.svelte";
-
-	
+	import ActionsIcons from '$lib/ActionsIcons.svelte';
+	import Hero from '$lib/Hero.svelte';
+	import ServicesIcons from '$lib/ServicesIcons.svelte';
+	import ServicesSliders from '$lib/ServicesSliders.svelte';
 </script>
 
 <svelte:head>
@@ -17,6 +15,4 @@ import Hero from "$lib/Hero.svelte";
 	<ServicesIcons />
 	<ServicesSliders />
 	<ActionsIcons />
-
 </section>
-
