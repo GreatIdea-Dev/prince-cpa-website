@@ -4,7 +4,7 @@
 </svelte:head>
 
 <div>
-	<h1 class="text-sm font-bold bg-red-500">contact</h1>
+	<h1 class="text-sm font-bold bg-red-500">Contact</h1>
 	<!-- Need the following fields:
 	1. Name 
 	2. Email 
