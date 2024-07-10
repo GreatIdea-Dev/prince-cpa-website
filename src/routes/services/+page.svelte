@@ -14,27 +14,94 @@
 			regulatory environment.
 		</p>
 		<p>Our professional services include:</p>
-		<ul style="list-style-type:disc">
-			<li>Debt and Finance Advising</li>
-			<li>Accounting Services</li>
-			<li>Audits, Reviews, and Compilation</li>
-			<li>Financial and Retirement Planning</li>
-			<li>Bookkeeping/Write-up</li>
-			<li>IRS Representation</li>
-			<li>Payroll Services</li>
-			<li>Cash Flow and Budgeting Anaysis</li>
-			<li>Debt and Finance Advising</li>
-		</ul>
-		<ul style="list-style-type:disc">
-			<li>Tax Managment Services</li>
-			<li>Assurance and Advisory Services</li>
-			<li>Estate and Trust Planning and Tax Preparation</li>
-			<li>OuickBooks Accounting Help and Assistance</li>
-			<li>Entity Selection and Restructuring</li>
-			<li>Computer Consulting</li>
-			<li>Employee Benefits, Pension, and Profit-Sharing Plans</li>
-			<li>Financial Projections and Forecasts</li>
-			<li>Foreign Taxation</li>
+
+		<ul style="list-style-type:disc" class="ml-10 text-blue-950 columns-2">
+			<li class="hover:cursor-pointer hover:underline">
+				<a id="Debt and Finance Advising" href="#Debt and Finance Advising"
+					>Debt and Finance Advising</a
+				>
+			</li>
+			<li class="hover:cursor-pointer hover:underline">
+				<a id="Accounting Services" href="#Accounting Services">Accounting Services</a>
+			</li>
+
+			<li class="hover:cursor-pointer hover:underline">
+				<a id="Audits, Reviews, and Compilation" href="#Audits, Reviews, and Compilation"
+					>Audits, Reviews, and Compilation</a
+				>
+			</li>
+			<li class="hover:cursor-pointer hover:underline">
+				<a id="Financial and Retirement Planning" href="#Financial and Retirement Planning"
+					>Financial and Retirement Planning</a
+				>
+			</li>
+			<li class="hover:cursor-pointer hover:underline">
+				<a id="Bookkeeping/Write-Up" href="#Bookkeeping/Write-Up">Bookkeeping/Write-up</a>
+			</li>
+			<li class="hover:cursor-pointer hover:underline">
+				<a id="IRS Representation" href="#IRS Representation">IRS Representation</a>
+			</li>
+			<li class="hover:cursor-pointer hover:underline">
+				<a id="Payroll Services" href="#Payroll Services">Payroll Services</a>
+			</li>
+			<li class="hover:cursor-pointer hover:underline">
+				<a id="Cash Flow and Budgeting Anaysis" href="#Cash Flow and Budgeting Anaysis"
+					>Cash Flow and Budgeting Anaysis</a
+				>
+			</li>
+
+			<li class="hover:cursor-pointer hover:underline">
+				<a id="Tax Managment Services" href="#Tax Managment Services">Tax Managment Services</a>
+			</li>
+			<li class="hover:cursor-pointer hover:underline">
+				<a id="Assurance and Advisory Services" href="#Assurance and Advisory Services"
+					>Assurance and Advisory Services</a
+				>
+			</li>
+			<li class="hover:cursor-pointer hover:underline">
+				<a
+					id="Estate and Trust Planning and Tax Preparation"
+					href="#Estate and Trust Planning and Tax Preparation"
+				>
+					Estate and Trust Planning and Tax Preparation</a
+				>
+			</li>
+			<li class="hover:cursor-pointer hover:underline">
+				<a
+					id="OuickBooks Accounting Help and Assistance"
+					href="#OuickBooks Accounting Help and Assistance"
+				>
+					OuickBooks Accounting Help and Assistance</a
+				>
+			</li>
+			<li class="hover:cursor-pointer hover:underline">
+				<a
+					id="Entity Selection and
+				Restructuring"
+					href="#Entity Selection and Restructuring">Entity Selection and Restructuring</a
+				>
+			</li>
+			<li class="hover:cursor-pointer hover:underline">
+				<a id="Computer Consulting" href="#Computer Consulting">Computer Consulting</a>
+			</li>
+			<li class="hover:cursor-pointer hover:underline">
+				<a
+					id="Employee Benefits, Pension, and Profit-Sharing Plans"
+					href="#Employee Benefits, Pension, and Profit-Sharing Plans"
+				>
+					Employee Benefits, Pension, and Profit-Sharing Plans</a
+				>
+			</li>
+			<li class="hover:cursor-pointer hover:underline">
+				<a
+					id="Financial Projections and
+				Forecasts"
+					href="#Financial Projections and Forecasts">Financial Projections and Forecasts</a
+				>
+			</li>
+			<li class="hover:cursor-pointer hover:underline">
+				<a id="Foreign Taxation" href="#Foreign Taxation">Foreign Taxation</a>
+			</li>
 		</ul>
 	</div>
 	<hr class="w-full border border-blue-950" />
@@ -73,7 +140,7 @@
 			profit-sharing plans.
 		</p>
 		<p>These services include but are not limited to</p>
-		<ul style="list-style-type:disc">
+		<ul style="list-style-type:disc" class="ml-10">
 			<li>General ledger and financial statement preparation</li>
 			<li>Bookkeeping(Monthly, quarterly, or annual)</li>
 			<li>Accounting system setup and support</li>
@@ -97,7 +164,7 @@
 			profit-sharing plans.
 		</p>
 		<p>These services include but are not limited to</p>
-		<ul style="list-style-type:disc">
+		<ul style="list-style-type:disc" class="ml-10">
 			<li>Audits, reviews, and compilations</li>
 			<li>Entity selection and restructuring</li>
 			<li>Accounting software selection, implementation, and support</li>
@@ -116,20 +183,20 @@
 			Prince CPA Firm, PLLC's financial statement services comprise all three levels of assurance
 			depending on your company's needs.
 		</p>
-		<p class="text-sm font-bold">Audits</p>
+		<p class="text-sm font-bold text-blue-950">Audits</p>
 		<p>
 			Audits offer the highest level of assurance to third parties, and include in-depth examination
 			and confirmation of account balances, inventories, and selected transactions. We perform
 			audits for you to remove errors, ascertaining the validity and reliability of your
 			information.
 		</p>
-		<p class="text-sm font-bold">Reviews</p>
+		<p class="text-sm font-bold text-blue-950">Reviews</p>
 		<p>
 			Reviews provide limited assurance to outside interests and involve inquiries and analytical
 			procedures that confirm financial statement matters and identify any items requiring further
 			analysis. We perform reviews to ensure the integrity of your data.
 		</p>
-		<p class="text-sm font-bold">Compilations</p>
+		<p class="text-sm font-bold text-blue-950">Compilations</p>
 		<p>
 			Compilations are usually requested for internal purposes and are based upon information
 			provided by a company's management. They do not offer assurance but may involve some
@@ -176,17 +243,17 @@
 			we help you use it more efficiently and more effectively.
 		</p>
 		<p>Prince CPA Firm, PLLC offers the following solutions to help meet your QuickBooks needs:</p>
-		<p class="text-sm font-bold">Personal Training</p>
+		<p class="text-sm font-bold text-blue-950">Personal Training</p>
 		<p>
 			We train you personally! Either one-on-one or several individuals within your organization at
 			your company's location.
 		</p>
-		<p class="text-sm font-bold">Installation</p>
+		<p class="text-sm font-bold text-blue-950">Installation</p>
 		<p>
 			We install QuickBooks on your stand alone computer or in a network environment, in either
 			single- or multi-user mode
 		</p>
-		<p class="text-sm font-bold">Setup</p>
+		<p class="text-sm font-bold text-blue-950">Setup</p>
 		<p>
 			We assist new QuickBooks users with initial setup including: EasyStep Interview, Preferences,
 			Lists, Customers, Vendors, Employees, Banking and Reports. We also help experienced users
@@ -194,13 +261,13 @@
 			experience problems and lack the ability to generate and track important information as a
 			result of inadequate setup.
 		</p>
-		<p class="text-sm font-bold">Support</p>
+		<p class="text-sm font-bold text-blue-950">Support</p>
 		<p>
 			Our QuickBooks support service can assist you with any installation, setup or operation
 			assistance you might need. In addition, our support is not limited just to the software part
 			of it, but we can also provide accounting and payroll assistance.
 		</p>
-		<p class="text-sm font-bold">Review</p>
+		<p class="text-sm font-bold text-blue-950">Review</p>
 		<p>
 			Our QuickBooks review service helps companies that have the human resources to perform daily
 			accounting and payroll tasks, but need an accounting and payroll expert to review your
