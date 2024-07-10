@@ -34,7 +34,7 @@
 	</nav>
 
 	<div class="flex flex-row items-center justify-center w-48">
-		<a class="text-xs text-gray-600 hover:underline" href="https://gratidea.dev/" target="_blank"
+		<a class="text-xs text-gray-600 hover:underline" href="https://greatidea.dev/" target="_blank"
 			>&copy; 2024 GreatIdea.dev</a
 		>
 	</div>
