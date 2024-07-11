@@ -8,19 +8,6 @@
 >
 	<div class="flex flex-col items-center justify-center w-full gap-8 lg:flex-row">
 		<a
-			href="https://swipesimple.com/links/lnk_d783542f"
-			class="flex flex-row items-center justify-start w-full gap-3 group lg:w-1/2 hover:cursor-pointer"
-		>
-			<div class="p-4 text-white rounded-full bg-cyan-600 group-hover:bg-orange-600">
-				<CreditCard stroke="white" size={56} />
-			</div>
-			<div class="flex flex-col">
-				<span class="pb-1 text-2xl font-semibold">Make a Payment</span>
-				<p>Quickly make credit/debit card payments towards your account.</p>
-				<CtaLink text="Make a Payment" />
-			</div>
-		</a>
-		<a
 			href="https://secure.netlinksolution.com/nextgen/#/"
 			class="flex flex-row items-center justify-start w-full gap-3 group lg:w-1/2 hover:cursor-pointer"
 		>
@@ -31,6 +18,19 @@
 				<span class="pb-1 text-2xl font-semibold">Client Portal</span>
 				<p>Click here to login to your secure client portal.</p>
 				<CtaLink text="Client Login" />
+			</div>
+		</a>
+		<a
+			href="https://swipesimple.com/links/lnk_d783542f"
+			class="flex flex-row items-center justify-start w-full gap-3 group lg:w-1/2 hover:cursor-pointer"
+		>
+			<div class="p-4 text-white rounded-full bg-cyan-600 group-hover:bg-orange-600">
+				<CreditCard stroke="white" size={56} />
+			</div>
+			<div class="flex flex-col">
+				<span class="pb-1 text-2xl font-semibold">Make a Payment</span>
+				<p>Quickly make credit/debit card payments towards your account.</p>
+				<CtaLink text="Make a Payment" />
 			</div>
 		</a>
 	</div>
