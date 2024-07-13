@@ -46,8 +46,8 @@
 		<div class="flex flex-col flex-1 gap-3">
 			<span class="text-2xl font-semibold">Tax Services for Businesses and Individuals</span>
 			<p>
-				We offer services for businesses and individuals alike. At Prince CPA, rest assured we will
-				go above and beyond to ensure your unique needs are met.
+				We offer tax services for businesses and individuals alike. At Prince CPA, rest assured we
+				will go above and beyond to ensure your unique needs are met.
 			</p>
 			<a href="tel:+16018492544"><CtaLink text="Call Today" /></a>
 		</div>
