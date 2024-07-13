@@ -1,5 +1,5 @@
 <script>
-	import people from '$lib/images/people-looking-out-window.jpg';
+	import people from '$lib/images/people.jpg';
 	import tablet from '$lib/images/typing-on-tablet.jpg';
 	import laptop from '$lib/images/success-laptop.jpg';
 	import CtaLink from './CTALink.svelte';
@@ -13,14 +13,13 @@
 			class="hidden rounded-lg md:flex md:w-72 lg:w-96"
 		/>
 		<div class="flex flex-col flex-1 gap-3">
-			<span class="text-2xl font-semibold"
-				>Prince CPA Firm, PLLC is licensed in MS and specializes in Payroll Services.</span
-			>
+			<span class="text-2xl font-semibold">Professional tax services that meet your needs</span>
 			<p>
-				When it comes to paying employees, laws and the IRS have made the payroll function a time
-				consuming nightmare for the small business owner.
+				Prince CPA Firm, PLLC is licensed in MS and specializes in governmental consulting,
+				not-for-profit organizations, and taxes for both businesses and individuals. Learn more
+				about the services we offer and the value we provide to our clients.
 			</p>
-			<a href="/contact"><CtaLink text="Payroll Services" /></a>
+			<a href="/services"><CtaLink text="Learn More" /></a>
 		</div>
 	</div>
 	<div class="flex flex-row-reverse items-start justify-start w-full gap-6">
@@ -48,8 +47,8 @@
 		<div class="flex flex-col flex-1 gap-3">
 			<span class="text-2xl font-semibold">Please call us at (601) 849-2544.</span>
 			<p>
-				We offer payroll solutions that meet your business's needs and enable you to spend time
-				doing what you do best, running your company.
+				We offer complete tax solutions tailored to meet your specific needs and enable you to spend
+				time doing what you do best: running your company.
 			</p>
 			<a href="tel:+16018492544"><CtaLink text="Call Today" /></a>
 		</div>

@@ -16,22 +16,49 @@
 			</p>
 			<p>Our professional services include:</p>
 
-			<ul style="list-style-type:disc" class="ml-10 text-blue-950 columns-2">
+			<ul class="ml-10 list-disc text-blue-950 columns-1 sm:columns-2">
+				<li class="hover:cursor-pointer hover:underline">
+					<a href="#Accounting-Services">Accounting Services</a>
+				</li>
+				<li class="hover:cursor-pointer hover:underline">
+					<a href="#Assurance-and-Advisory-Services">Assurance and Advisory Services</a>
+				</li>
+				<li class="hover:cursor-pointer hover:underline">
+					<a href="#Audits-Reviews-and-Compilation">Audits, Reviews, and Compilation</a>
+				</li>
+				<li class="hover:cursor-pointer hover:underline">
+					<a href="#Bookkeeping-Write-Up">Bookkeeping/Write-up</a>
+				</li>
+				<li class="hover:cursor-pointer hover:underline">
+					<a href="#Cash-Flow-and-Budgeting-Analysis">Cash Flow and Budgeting Anaysis</a>
+				</li>
+				<li class="hover:cursor-pointer hover:underline">
+					<a href="#Computer-Consulting">Computer Consulting</a>
+				</li>
 				<li class="hover:cursor-pointer hover:underline">
 					<a href="#Debt-and-Finance-Advising">Debt and Finance Advising</a>
 				</li>
 				<li class="hover:cursor-pointer hover:underline">
-					<a href="#Accounting-Services">Accounting Services</a>
+					<a href="#Employee-Benefits-Pension-and-Profit-Sharing-Plans">
+						Employee Benefits, Pension, and Profit-Sharing Plans</a
+					>
 				</li>
-
 				<li class="hover:cursor-pointer hover:underline">
-					<a href="#Audits-Reviews-and-Compilation">Audits, Reviews, and Compilation</a>
+					<a href="#Entity-Selection-and-Restructuring">Entity Selection and Restructuring</a>
+				</li>
+				<li class="hover:cursor-pointer hover:underline">
+					<a href="#Estate-and-Trust-Planning-and-Tax-Preparation">
+						Estate and Trust Planning and Tax Preparation</a
+					>
 				</li>
 				<li class="hover:cursor-pointer hover:underline">
 					<a href="#Financial-and-Retirement-Planning">Financial and Retirement Planning</a>
 				</li>
 				<li class="hover:cursor-pointer hover:underline">
-					<a href="#Bookkeeping-Write-Up">Bookkeeping/Write-up</a>
+					<a href="#Financial-Projections-and-Forecasts">Financial Projections and Forecasts</a>
+				</li>
+				<li class="hover:cursor-pointer hover:underline">
+					<a href="#Foreign-Taxation">Foreign Taxation</a>
 				</li>
 				<li class="hover:cursor-pointer hover:underline">
 					<a href="#IRS-Representation">IRS Representation</a>
@@ -40,41 +67,12 @@
 					<a href="#Payroll-Services">Payroll Services</a>
 				</li>
 				<li class="hover:cursor-pointer hover:underline">
-					<a href="#Cash-Flow-and-Budgeting-Analysis">Cash Flow and Budgeting Anaysis</a>
-				</li>
-
-				<li class="hover:cursor-pointer hover:underline">
-					<a href="#Tax-Managment-Services">Tax Managment Services</a>
-				</li>
-				<li class="hover:cursor-pointer hover:underline">
-					<a href="#Assurance-and-Advisory-Services">Assurance and Advisory Services</a>
-				</li>
-				<li class="hover:cursor-pointer hover:underline">
-					<a href="#Estate-and-Trust-Planning-and-Tax-Preparation">
-						Estate and Trust Planning and Tax Preparation</a
-					>
-				</li>
-				<li class="hover:cursor-pointer hover:underline">
 					<a href="#QuickBooks-Accounting-Help-and-Assistance">
 						QuickBooks Accounting Help and Assistance</a
 					>
 				</li>
 				<li class="hover:cursor-pointer hover:underline">
-					<a href="#Entity-Selection-and-Restructuring">Entity Selection and Restructuring</a>
-				</li>
-				<li class="hover:cursor-pointer hover:underline">
-					<a href="#Computer-Consulting">Computer Consulting</a>
-				</li>
-				<li class="hover:cursor-pointer hover:underline">
-					<a href="#Employee-Benefits-Pension-and-Profit-Sharing-Plans">
-						Employee Benefits, Pension, and Profit-Sharing Plans</a
-					>
-				</li>
-				<li class="hover:cursor-pointer hover:underline">
-					<a href="#Financial-Projections-and-Forecasts">Financial Projections and Forecasts</a>
-				</li>
-				<li class="hover:cursor-pointer hover:underline">
-					<a href="#Foreign-Taxation">Foreign Taxation</a>
+					<a href="#Tax-Managment-Services">Tax Managment Services</a>
 				</li>
 			</ul>
 		</div>
@@ -120,7 +118,7 @@
 				benefit and profit-sharing plans.
 			</p>
 			<p>These services include but are not limited to</p>
-			<ul style="list-style-type:disc" class="ml-10">
+			<ul class="ml-10 list-disc">
 				<li>General ledger and financial statement preparation</li>
 				<li>Bookkeeping(Monthly, quarterly, or annual)</li>
 				<li>Accounting system setup and support</li>
@@ -146,7 +144,7 @@
 				benefit and profit-sharing plans.
 			</p>
 			<p>These services include but are not limited to</p>
-			<ul style="list-style-type:disc" class="ml-10">
+			<ul class="ml-10 list-disc">
 				<li>Audits, reviews, and compilations</li>
 				<li>Entity selection and restructuring</li>
 				<li>Accounting software selection, implementation, and support</li>
