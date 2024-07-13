@@ -28,7 +28,7 @@
 			class="flex flex-row items-center justify-start w-full gap-3 group lg:w-1/2 hover:cursor-pointer"
 		>
 			<div class="p-4 text-white rounded-full bg-cyan-600 group-hover:bg-orange-600">
-				<Scale stroke="white" size={56} class="rotate-[20deg]" />
+				<Scale stroke="white" size={56} />
 			</div>
 			<div class="flex flex-col">
 				<span class="pb-1 text-2xl font-semibold">Governmental Consulting</span>
