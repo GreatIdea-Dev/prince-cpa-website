@@ -1,5 +1,5 @@
 <script>
-	import { BookText, Briefcase, Calculator, Compass } from 'lucide-svelte';
+	import { Briefcase, Church, Scale, User } from 'lucide-svelte';
 	import CtaLink from './CTALink.svelte';
 </script>
 
@@ -11,14 +11,15 @@
 			href="/contact"
 			class="flex flex-row items-center justify-start w-full gap-3 group lg:w-1/2 hover:cursor-pointer"
 		>
-			<div class="flex items-center justify-center h-full">
-				<div class="p-4 text-white rounded-full bg-cyan-600 group-hover:bg-orange-600">
-					<Compass stroke="white" size={56} />
-				</div>
+			<div class="p-4 text-white rounded-full bg-cyan-600 group-hover:bg-orange-600">
+				<Church stroke="white" size={56} />
 			</div>
 			<div class="flex flex-col">
-				<span class="pb-1 text-2xl font-semibold">Services For Individuals</span>
-				<span>You get one-on-one guidance that helps manage risk and improve performance.</span>
+				<span class="pb-1 text-2xl font-semibold">Not-for-Profit Tax Services</span>
+				<p>
+					We understand the challenges and intricacies of not-for-profit organizations and can help you
+					navigate the complexities of not-for-profit tax law.
+				</p>
 				<CtaLink text="Learn More" />
 			</div>
 		</a>
@@ -27,14 +28,11 @@
 			class="flex flex-row items-center justify-start w-full gap-3 group lg:w-1/2 hover:cursor-pointer"
 		>
 			<div class="p-4 text-white rounded-full bg-cyan-600 group-hover:bg-orange-600">
-				<Briefcase stroke="white" size={56} />
+				<Scale stroke="white" size={56} class="rotate-[20deg]" />
 			</div>
 			<div class="flex flex-col">
-				<span class="pb-1 text-2xl font-semibold">Business Services</span>
-				<p>
-					We take care of your business for you, so you can get back to the job of running your
-					business.
-				</p>
+				<span class="pb-1 text-2xl font-semibold">Governmental Consulting</span>
+				<p>We offer general consulting services to State and Local government agencies.</p>
 				<CtaLink text="Learn More" />
 			</div>
 		</a>
@@ -45,12 +43,13 @@
 			class="flex flex-row items-center justify-start w-full gap-3 group lg:w-1/2 hover:cursor-pointer"
 		>
 			<div class="p-4 text-white rounded-full bg-cyan-600 group-hover:bg-orange-600">
-				<Calculator stroke="white" size={56} />
+				<Briefcase stroke="white" size={56} />
 			</div>
 			<div class="flex flex-col">
-				<span class="pb-1 text-2xl font-semibold">Tax Services</span>
+				<span class="pb-1 text-2xl font-semibold">Business Tax Services</span>
 				<p>
-					We pride ourselves on being very efficient, affordable, and of course, extremely discreet.
+					We take care of your business for you, so you can get back to the job of running your
+					business.
 				</p>
 				<CtaLink text="Learn More" />
 			</div>
@@ -59,15 +58,14 @@
 			href="/contact"
 			class="flex flex-row items-center justify-start w-full gap-3 group lg:w-1/2 hover:cursor-pointer"
 		>
-			<div class="p-4 text-white rounded-full bg-cyan-600 group-hover:bg-orange-600">
-				<BookText stroke="white" size={56} class="rotate-[20deg]" />
+			<div class="flex items-center justify-center h-full">
+				<div class="p-4 text-white rounded-full bg-cyan-600 group-hover:bg-orange-600">
+					<User stroke="white" size={56} />
+				</div>
 			</div>
 			<div class="flex flex-col">
-				<span class="pb-1 text-2xl font-semibold">QuickBooks Services</span>
-				<p>
-					QuickBooks is the ideal business accounting software for small to mid-sized business
-					owners.
-				</p>
+				<span class="pb-1 text-2xl font-semibold">Tax Services For Individuals</span>
+				<span>You get one-on-one guidance that helps manage risk and improve performance.</span>
 				<CtaLink text="Learn More" />
 			</div>
 		</a>
