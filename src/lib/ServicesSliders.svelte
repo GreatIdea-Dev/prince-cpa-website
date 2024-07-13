@@ -13,14 +13,13 @@
 			class="hidden rounded-lg md:flex md:w-72 lg:w-96"
 		/>
 		<div class="flex flex-col flex-1 gap-3">
-			<span class="text-2xl font-semibold"
-				>Prince CPA Firm, PLLC is licensed in MS and specializes in Payroll Services.</span
-			>
+			<span class="text-2xl font-semibold">Governmental Consulting</span>
 			<p>
-				When it comes to paying employees, laws and the IRS have made the payroll function a time
-				consuming nightmare for the small business owner.
+				We know accuracy and efficiency is of the upmost importance concerning Governmental
+				Consulting. Whether the consultation is for federal, state, or a local governing office, we
+				have you covered.
 			</p>
-			<a href="/contact"><CtaLink text="Payroll Services" /></a>
+			<a href="/contact"><CtaLink text="Schedule a consultation today!" /></a>
 		</div>
 	</div>
 	<div class="flex flex-row-reverse items-start justify-start w-full gap-6">
@@ -30,13 +29,12 @@
 			class="hidden rounded-lg md:flex md:w-72 lg:w-96"
 		/>
 		<div class="flex flex-col flex-1 gap-3">
-			<span class="text-2xl font-semibold">Simplify your payroll.</span>
+			<span class="text-2xl font-semibold">Nonprofit Accounting</span>
 			<p>
-				Small business owners spend an average of eight hours a month performing payroll functions.
-				That's 12 full days a year that could be spent generating sales, prospecting new business
-				opportunities, improving products or services, or servicing customers.
+				Let us take the guess work out of Nonprofit Accounting. This unique situation requires a
+				specific attention to detail and organization, which will be received from Prince CPA.
 			</p>
-			<a href="/contact"><CtaLink text="Payroll Services" /></a>
+			<a href="/contact"><CtaLink text="Learn more" /></a>
 		</div>
 	</div>
 	<div class="flex flex-row items-start justify-start w-full gap-6">
@@ -46,10 +44,10 @@
 			class="hidden rounded-lg md:flex md:w-72 lg:w-96"
 		/>
 		<div class="flex flex-col flex-1 gap-3">
-			<span class="text-2xl font-semibold">Please call us at (601) 849-2544.</span>
+			<span class="text-2xl font-semibold">Tax Services for Businesses and Individuals</span>
 			<p>
-				We offer payroll solutions that meet your business's needs and enable you to spend time
-				doing what you do best, running your company.
+				We offer services for businesses and individuals alike. At Prince CPA, rest assured we will
+				go above and beyond to ensure your unique needs are met.
 			</p>
 			<a href="tel:+16018492544"><CtaLink text="Call Today" /></a>
 		</div>
