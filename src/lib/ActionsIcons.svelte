@@ -9,6 +9,7 @@
 	<div class="flex flex-col items-center justify-center w-full gap-8 lg:flex-row">
 		<a
 			href="https://secure.netlinksolution.com/nextgen/#/"
+			target="_blank"
 			class="flex flex-row items-center justify-start w-full gap-3 group lg:w-1/2 hover:cursor-pointer"
 		>
 			<div class="p-4 text-white rounded-full bg-cyan-600 group-hover:bg-orange-600">
@@ -22,6 +23,7 @@
 		</a>
 		<a
 			href="https://swipesimple.com/links/lnk_d783542f"
+			target="_blank"
 			class="flex flex-row items-center justify-start w-full gap-3 group lg:w-1/2 hover:cursor-pointer"
 		>
 			<div class="p-4 text-white rounded-full bg-cyan-600 group-hover:bg-orange-600">

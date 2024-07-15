@@ -31,13 +31,15 @@
             <li aria-current={$page.url.pathname === '/contact' ? 'page' : undefined}>
 				<a
 					class="items-center justify-center hidden h-12 px-8 border-l border-r lg:flex hover:cursor-pointer hover:bg-blue-900"
-					href="https://secure.netlinksolution.com/nextgen/#/">Client Login</a
+					href="https://secure.netlinksolution.com/nextgen/#/"
+					target="_blank">Client Login</a
 				>
 			</li>
             <li aria-current={$page.url.pathname === '/contact' ? 'page' : undefined}>
 				<a
 					class="items-center justify-center hidden h-12 px-8 border-l border-r-2 lg:flex hover:cursor-pointer hover:bg-blue-900"
-					href="https://swipesimple.com/links/lnk_d783542f">Payments</a
+					href="https://swipesimple.com/links/lnk_d783542f"
+					target="_blank">Payments</a
 				>
 			</li>
 		</ul>
